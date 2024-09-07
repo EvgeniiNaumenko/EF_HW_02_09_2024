@@ -1,0 +1,5 @@
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\Dapper_Entity_Framework\HW_004_02_09_2024\obj\Debug\net8.0\HW_004_02_09_2024.GeneratedMSBuildEditorConfig.editorconfig
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\Dapper_Entity_Framework\HW_004_02_09_2024\obj\Debug\net8.0\HW_004_02_09_2024.AssemblyInfoInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\Dapper_Entity_Framework\HW_004_02_09_2024\obj\Debug\net8.0\HW_004_02_09_2024.AssemblyInfo.cs
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\Dapper_Entity_Framework\HW_004_02_09_2024\obj\Debug\net8.0\HW_004_02_09_2024.csproj.CoreCompileInputs.cache
+D:\ЖЕНЯ\Обучение\ITStep\ДЗ\Dapper_Entity_Framework\HW_004_02_09_2024\obj\Debug\net8.0\HW_004_02_09_2024.csproj.AssemblyReference.cache
