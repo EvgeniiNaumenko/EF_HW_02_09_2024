@@ -1,6 +1,7 @@
 ﻿using HW_004_02_09_2024;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Reflection.Emit;
 
 class Program
@@ -42,6 +43,19 @@ class Program
                 db.Users.Remove(userToDelete);
             }
             db.SaveChanges();
+        }
+
+
+        //Создайте базу данных, представляющую информацию о «Компаниях», их «Сотрудниках» и «Проектах».
+        //Необходимо создать запрос с использованием Entity Framework Core для получения списка проектов,
+        //в которых участвуют сотрудники из определенной компании. Создать два типа связи:
+        //компания – сотрудники(один ко многим), сотрудники – проекты(многие ко многим).
+        using (ApplicationlContext2 db = new ApplicationlContext2())
+        {
+            db.Database.EnsureDeleted();
+            db.Database.EnsureCreated();
+            //var currentCompany = db.Companies.Include(e=>e.Users).FirstOrDefault(); // одна компанияи все пользователи
+            //var projects = db.Projects.Include(e=>e.Employees).ThenInclude(e=>e.Projects).Where(db.Employees.;
         }
     }
 }
